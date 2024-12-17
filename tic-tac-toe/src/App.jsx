@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className="game">
-      <h2 className="status">Tic Tac Tow</h2>
+      <h2 style={{fontSize:'2.3rem'}}>Tic Tac Tow</h2>
       <div className="game-board">
         <div className="board-row">
           {renderSquare(0)}
